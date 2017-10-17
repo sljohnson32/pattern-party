@@ -32,3 +32,19 @@ header p {
   letter-spacing: 1px;
   margin: 24px 20px;
 }
+
+.pattern-example {
+  margin: 20px;
+}
+
+.pattern-header h3,hr {
+  color: #BDBDBD;
+  display: inline-block;
+}
+
+.pattern-header hr {
+  margin: 0 10% 0 5%;
+  width: 65%;
+  vertical-align: middle;
+  border-style: solid;
+}
