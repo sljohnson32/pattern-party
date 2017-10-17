@@ -51,7 +51,6 @@ header p {
 
 .pattern-container {
   margin: 40px;
-  outline: 1px solid #BDBDBD;
   width: 85%;
 }
 
@@ -68,16 +67,48 @@ header p {
 }
 
 .tab {
-  text-align: center;
-  flex-basis: 20%;
-  flex-grow: 1;
-  outline: 1px solid #BDBDBD;
-  padding: 10px 0;
   background-color: #BDBDBD;
   color: #FFFFFF;
+  flex-basis: 20%;
+  flex-grow: 1;
+  /*border: 1px solid #FFFFFF;*/
+  border-right: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px outset #757575;
+  padding: 10px;
+  text-align: center;
 }
-.tab .is-selected {
-  font-weight: bold;
-  background-color: #FFFFFF
+
+.tab.is-selected {
   color: #BDBDBD;
+  background-color: #FFFFFF;
+  border-bottom: none;
+  font-weight: bold;
+  border: 1px outset #757575;
+  border-bottom: none;
+}
+
+.l-display {
+  border: 1px inset #757575;
+  border-top: none;
+}
+
+.display {
+  display: none;
+  padding: 10px;
+}
+
+.display.is-selected {
+  display: flex;
+}
+
+img {
+  height: 100%;
+
+}
+
+.display-content {
+  width: 60%;
+  padding-left: 10px;
 }
