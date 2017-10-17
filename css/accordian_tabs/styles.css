@@ -43,7 +43,7 @@ header p {
 }
 
 .pattern-header hr {
-  margin: 0 10% 0 5%;
+  margin: 0 0 0 5%;
   width: 70%;
   vertical-align: middle;
   border-style: solid;
@@ -74,8 +74,9 @@ header p {
   /*border: 1px solid #FFFFFF;*/
   border-right: 1px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
-  border-top: 1px solid #FFFFFF;
-  border-bottom: 1px outset #757575;
+  /*border-top: 1px solid #FFFFFF;*/
+  /*border-bottom: 1px outset #757575;*/
+  box-shadow: 0 1px 0 #757575;
   padding: 10px;
   text-align: center;
 }
@@ -85,12 +86,13 @@ header p {
   background-color: #FFFFFF;
   border-bottom: none;
   font-weight: bold;
-  border: 1px outset #757575;
+  border: 1px solid #757575;
   border-bottom: none;
+  box-shadow: none;
 }
 
 .l-display {
-  border: 1px inset #757575;
+  border: 1px solid #757575;
   border-top: none;
 }
 
