@@ -34,7 +34,7 @@ header p {
 }
 
 .pattern-example {
-  margin: 20px;
+  margin: 40px 20px;
 }
 
 .pattern-header h3,hr {
@@ -44,7 +44,40 @@ header p {
 
 .pattern-header hr {
   margin: 0 10% 0 5%;
-  width: 65%;
+  width: 70%;
   vertical-align: middle;
   border-style: solid;
+}
+
+.pattern-container {
+  margin: 40px;
+  outline: 1px solid #BDBDBD;
+  width: 85%;
+}
+
+/*TABS CSS*/
+
+.l-tabs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  width: 100%;
+}
+
+.tab {
+  text-align: center;
+  flex-basis: 20%;
+  flex-grow: 1;
+  outline: 1px solid #BDBDBD;
+  padding: 10px 0;
+  background-color: #BDBDBD;
+  color: #FFFFFF;
+}
+.tab .is-selected {
+  font-weight: bold;
+  background-color: #FFFFFF
+  color: #BDBDBD;
 }
