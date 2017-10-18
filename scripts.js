@@ -1,9 +1,12 @@
 $('.tab').click((e) => {
   let tabID = $(e.target).parents('.tab').attr('data-tab')
-  $('.tab.is-selected').removeClass('is-selected')
-  $('.display.is-selected').removeClass('is-selected')
-  $(`[data-tab=${tabID}]`).addClass('is-selected')
-  $(`[data-display=${tabID}]`).addClass('is-selected')
+  let currentTab = $('.tab.is-selected').attr('data-tab')
+  if (currentTab !== tabID) {
+    $('.tab.is-selected').removeClass('is-selected')
+    $('.display.is-selected').removeClass('is-selected')
+    $(`[data-tab=${tabID}]`).addClass('is-selected')
+    $(`[data-display=${tabID}]`).addClass('is-selected')
+  }
 })
 
 
