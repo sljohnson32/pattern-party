@@ -93,7 +93,7 @@ header p {
   border: 1px solid #757575;
   border-bottom: none;
   box-shadow: none;
-  margin-right: -1px;
+  margin-bottom: -.6px;
   z-index: 1;
 }
 
