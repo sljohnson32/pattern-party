@@ -16,8 +16,8 @@ header h1 {
   color: white;
   float: left;
   letter-spacing: 1px;
-  margin: 20px;
-  font-size: 24px;
+  margin: 18px 20px;
+  font-size: 20px;
 }
 
 header .header-text2 {
@@ -27,10 +27,10 @@ header .header-text2 {
 header p {
   color: white;
   float: right;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   letter-spacing: 1px;
-  margin: 24px 20px;
+  margin: 20px;
 }
 
 .pattern-example {
@@ -97,6 +97,11 @@ header p {
   z-index: 1;
 }
 
+/*MOBILE TAB CSS*/
+.mobile-tab {
+  display: none;
+}
+
 /*DISPLAY CSS*/
 
 .l-display {
@@ -111,10 +116,6 @@ header p {
 
 .display.is-selected {
   display: flex;
-}
-
-img {
-  height: 100%;
 }
 
 .display-content {
@@ -162,4 +163,79 @@ button {
 
 button:hover {
   opacity: .8;
+}
+
+/*MEDIA QUERY 680*/
+
+@media screen and (max-width: 680px) {
+  img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/*MEDIA QUERY 550*/
+
+@media screen and (max-width: 550px) {
+
+  html {
+    overflow: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pattern-container {
+    margin: 3%;
+    width: 94%;
+  }
+  .pattern-example {
+    margin: 20px 0;
+  }
+
+  .l-tabs {
+    display: none;
+  }
+
+  .l-display {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+
+  .mobile-tab {
+    border-top: 1px solid #757575;
+    border-bottom: 1px solid #757575;
+    display: block;
+    text-align: left;
+    padding: 15px 30px;
+    font-size: 22px;
+    vertical-align: middle;
+  }
+
+  .mobile-tab span {
+    float: right;
+    font-size: 34px;
+  }
+
+  .mobile-tab.is-selected {
+    border-bottom: none;
+  }
+
+  .display {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .display.is-selected {
+    padding-top: 0;
+  }
+
+  img {
+    width: 200px;
+    height: 250px;
+  }
+
+
 }

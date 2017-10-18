@@ -15,3 +15,5 @@ $('.tab').click((e) => {
 //   $(e.target).toggleClass('locked unlocked')
 //   $(e.target).attr('src', './imgs/unlocked.png')
 // }
+
+// &#45;
