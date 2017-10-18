@@ -34,7 +34,7 @@ header p {
 }
 
 .pattern-example {
-  margin: 40px 20px;
+  margin: 50px;
 }
 
 .pattern-header h3,hr {
@@ -43,7 +43,7 @@ header p {
 }
 
 .pattern-header hr {
-  margin: 0 0 0 5%;
+  margin: 0 0 0 3%;
   width: 70%;
   vertical-align: middle;
   border-style: solid;
@@ -184,6 +184,11 @@ p {
     width: 50%;
     height: 50%;
   }
+
+  .pattern-header hr {
+    width: 60%;
+  }
+
 }
 
 /*MEDIA QUERY 550*/
