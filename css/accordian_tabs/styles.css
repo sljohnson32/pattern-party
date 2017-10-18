@@ -154,10 +154,13 @@ header p {
 }
 
 button {
-  width: 180px;
-  height: 30px;
+  font-size: 16px;
+  width: 220px;
+  height: 40px;
   border: none;
   background-color: #2F2235;
+  margin: 15px;
+  border-radius: 2px;
 }
 
 a {
@@ -168,6 +171,10 @@ a {
 
 button:hover {
   opacity: .8;
+}
+
+p {
+
 }
 
 /*MEDIA QUERY 680*/
@@ -246,6 +253,11 @@ button:hover {
     outline: 1px solid white;
   }
 
+  img {
+    width: 200px;
+    height: 250px;
+  }
+
   .display-content {
     padding: 0;
   }
@@ -260,10 +272,5 @@ button:hover {
     border-bottom: 2px solid #757575;
     border-left: 1px solid #757575;
     border-right: 1px solid #757575;
-  }
-
-  img {
-    width: 200px;
-    height: 250px;
   }
 }
