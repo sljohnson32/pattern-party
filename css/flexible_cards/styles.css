@@ -2,13 +2,25 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: flex-start;
 }
 
+.card {
+  border: 1px solid #757575;
+  margin: 5px;
+  height: 240px;
+}
+
+.card h2 {
+  width: auto;
+  padding: 15px;
+  border-bottom: none;
+  overflow-x: hidden;
+}
+
 div.img-container {
-  width: 100%;
-  height: 180px;
+  width: auto;
+  min-height: 180px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,14 +28,49 @@ div.img-container {
 
 .narrow-card {
   width: 30%;
-  height: 225px;
+  max-width: 325px;
+  flex-grow: 1;
+  height: auto;
 }
 
 .wide-card {
   width: 60%;
-  height: 225px;
+  max-width: 650px;
+  flex-grow: 2;
+  height: auto;
 }
 
+/*CARD 1 IMG*/
 div[data-card='1'] {
   background-image: url('../../assets/bill_murray_flex.jpg');
+}
+
+/*CARD 2 IMG*/
+div[data-card='2'] {
+  background-image: url('../../assets/bill_murray_flex_l.jpg');
+}
+
+/*CARD 3 IMG*/
+div[data-card='3'] {
+  background-image: url('../../assets/bill_murray_flex.jpg');
+}
+
+/*CARD 4 IMG*/
+div[data-card='4'] {
+  background-image: url('../../assets/bill_murray_flex.jpg');
+}
+
+/*CARD 5 IMG*/
+div[data-card='5'] {
+  background-image: url('../../assets/bill_murray_flex.jpg');
+}
+
+/*CARD 6 IMG*/
+div[data-card='6'] {
+  background-image: url('../../assets/bill_murray_flex.jpg');
+}
+
+/*CARD 7 IMG*/
+div[data-card='7'] {
+  background-image: url('../../assets/bill_murray_flex_l.jpg');
 }
