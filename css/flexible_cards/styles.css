@@ -1,0 +1,29 @@
+.l-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+div.img-container {
+  width: 100%;
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.narrow-card {
+  width: 30%;
+  height: 225px;
+}
+
+.wide-card {
+  width: 60%;
+  height: 225px;
+}
+
+div[data-card='1'] {
+  background-image: url('../../assets/bill_murray_flex.jpg');
+}

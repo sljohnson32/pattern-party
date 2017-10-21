@@ -6,6 +6,13 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+  width: 100%;
+  border-bottom: .1em solid #757575;
+  padding: 10px 0 15px;
+  font-weight: bolder;
+}
+
 header {
   background-color: #2F2235;
   display: inline-block;
@@ -123,12 +130,6 @@ header p {
   padding: 0 0 0 20px;
 }
 
-.display-content h2 {
-  width: 100%;
-  border-bottom: .1em solid #757575;
-  padding: 10px 0 15px;
-  font-weight: bolder;
-}
 
 .display-text {
   padding: 20px 0 0;
