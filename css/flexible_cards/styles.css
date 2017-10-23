@@ -13,9 +13,12 @@
 
 .card h2 {
   width: auto;
+  max-height: 46px;
   padding: 15px;
   border-bottom: none;
+  white-space: nowrap;
   overflow-x: hidden;
+  text-overflow: ellipsis;
 }
 
 div.img-container {
@@ -27,16 +30,16 @@ div.img-container {
 }
 
 .narrow-card {
-  width: 30%;
+  width: 29.5%;
   max-width: 325px;
-  flex-grow: 1;
+  /*flex-grow: 1;*/
   height: auto;
 }
 
 .wide-card {
   width: 60%;
   max-width: 650px;
-  flex-grow: 2;
+  /*flex-grow: 2;*/
   height: auto;
 }
 
