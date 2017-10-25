@@ -1,4 +1,5 @@
 .l-cards {
+  width: 84vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -32,14 +33,12 @@ div.img-container {
 .narrow-card {
   width: 29.5%;
   max-width: 325px;
-  /*flex-grow: 1;*/
   height: auto;
 }
 
 .wide-card {
   width: 60%;
   max-width: 650px;
-  /*flex-grow: 2;*/
   height: auto;
 }
 
@@ -76,4 +75,20 @@ div[data-card='6'] {
 /*CARD 7 IMG*/
 div[data-card='7'] {
   background-image: url('../../assets/bill_murray_flex_l.jpg');
+}
+
+@media screen and (max-width: 700px) {
+
+  .card {
+    height: 226px;
+  }
+
+  .narrow-card {
+    width: 90%;
+    max-width: 650px;
+  }
+
+  .wide-card {
+    width: 90%;
+  }
 }
