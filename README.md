@@ -1,1 +1,3 @@
-# pattern-party
+# Pattern Party
+
+## COMING SOON!
