@@ -148,7 +148,7 @@
 
   #search-wrapper {
     width: 100%;
-    max-width: 233px;
+    max-width: 255px;
   }
 
   #search-wrapper::before {
