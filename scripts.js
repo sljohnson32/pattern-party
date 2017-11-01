@@ -11,12 +11,6 @@ $('.tab').click((e) => {
   }
 })
 
-
-
-// if ($(e.target).attr('class') == 'unlocked') {
-//   $(e.target).toggleClass('locked unlocked')
-//   $(e.target).attr('src', './imgs/locked.png')
-// } else {
-//   $(e.target).toggleClass('locked unlocked')
-//   $(e.target).attr('src', './imgs/unlocked.png')
-// }
+$('#menu-button').click(() => {
+  $('#nav-link-container').toggleClass('hide');
+})
