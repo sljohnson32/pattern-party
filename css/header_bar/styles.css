@@ -51,10 +51,13 @@
 
 .nav-link:hover {
   background-color: #666666;
+  color: white;
+  font-weight: 400;
 }
 
 #nav-search {
   align-items: center;
+  border-radius: 2px;
   flex-grow: 1;
   border: none;
   height: 30px;
