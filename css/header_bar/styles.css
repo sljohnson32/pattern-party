@@ -142,13 +142,14 @@
   }
 
   #nav-search {
-    margin: 10px 25px 0 -5px;
+    margin: 10px 15px 0 -15px;
     margin-bottom: 15px;
+    width: 100%;
   }
 
   #search-wrapper {
     width: 100%;
-    max-width: 255px;
+    max-width: none;
   }
 
   #search-wrapper::before {
@@ -156,7 +157,7 @@
     z-index: 1;
     background-size: cover;
     position: relative;
-    left: 26px;
+    left: 16px;
     top: 10px;
     bottom: 0;
   }
