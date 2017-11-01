@@ -1,0 +1,101 @@
+#nav-container {
+  align-items: center;
+  background-color: #D1D2D3;
+  border-radius: 2px;
+  display: flex;
+  height: 75px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#nav-container h4 {
+  font-size: 90%;
+}
+
+#nav-img {
+  border-radius: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../assets/bill_murray_flex.jpg');
+  margin: 15px;
+  height: 50px;
+  width: 50px;
+}
+
+#menu-button {
+  display: none;
+}
+
+#nav-link-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.nav-link {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  height: 100%;
+  word-wrap: normal;
+}
+
+.nav-link:hover {
+  background-color: #666666;
+}
+
+#nav-search {
+  flex-grow: 1;
+  border: none;
+  height: 30px;
+  margin: 0 10px;
+  max-width: 250px;
+  padding-left: 15px;
+  position: relative;
+}
+
+/*#nav-search::before {
+  content: url('../../assets/search-icon.png');
+  z-index: 5;
+  background-size: cover;
+  position: relative;
+  left: 150px;
+  background-color: black;
+  /*display: block;*/
+/*}*/
+
+@media screen and (max-width: 760px) {
+
+  #nav-container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  #nav-controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  #menu-button {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  #nav-img {
+    display: inline-block;
+  }
+
+  #nav-link-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  #nav-link {
+    width: 100%;
+  }
+}
