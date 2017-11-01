@@ -1,3 +1,3 @@
 # Pattern Party
 
-## COMING SOON!
+## README coming soon!
